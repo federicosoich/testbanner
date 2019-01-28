@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        
+        <update id="FSOICH_Extensions::fsoichextensions" title="FSOICH Extensions" module="Magento_Backend" sortOrder="300" resource="FSOICH_Extensions::fsoichextensions"/>
+        <add id="FSOICH_Banners::banners" title="Banners" module="FSOICH_Banners" sortOrder="50" parent="FSOICH_Extensions::fsoichextensions" action="banners/index/index" resource="FSOICH_Banners::banners"/>
+        
+    </menu>
+</config>
